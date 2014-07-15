@@ -8,9 +8,8 @@ print "Press Ctrl-C to quit or Enter to Continue "
 raw_input("?")
 
 target = open(fname, 'w')
-
-print "Truncating %s file Contents " %fname
-target.truncate()
+#print "Truncating %s file Contents " %fname
+#target.truncate()
 
 print "Please enter 3 lines to write to file"
 

@@ -5,8 +5,10 @@ def print_all(f):
 	print f.read()
 
 def rewind(f):
-	f.seek(0)
-
+	f.seek(0) #to the starting of file
+	#f.seek(2) to the end of file
+	#f.seek(1) from the current position exactly
+	#f.seek(-3,2) to the 3rd byte from the end
 def print_line(f):
 	print f.readline()
 

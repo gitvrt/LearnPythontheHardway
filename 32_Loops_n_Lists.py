@@ -28,9 +28,10 @@ print "New List elements are :"
 for ele in newlist:
 	print "%d"%ele
 	
-print "\nNew List after sorting are :"
+print "\nNew List after sorting are :",sorted(newlist)
 for ele in sorted(newlist):
 	print "%d"%ele
+
 
 print "\nNew List after Sorting in reverse Order are :"
 for ele in sorted(newlist,reverse=True):

@@ -1,3 +1,5 @@
+import ex25
+
 def break_words(stuff):
     """This function will break up words for us."""
     words = stuff.split(' ')
@@ -88,4 +90,4 @@ print sorted_words
 
 print_first_and_last(sentence)
 
-print_first_a_last_sorted(sentence)
+print_first_and_last_sorted(sentence)

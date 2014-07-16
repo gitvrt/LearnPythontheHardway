@@ -28,7 +28,7 @@ print "New List elements are :"
 for ele in newlist:
 	print "%d"%ele
 	
-print "\nNew List after sorting are :",sorted(newlist)
+print "\nNew List after sorting are :"
 for ele in sorted(newlist):
 	print "%d"%ele
 

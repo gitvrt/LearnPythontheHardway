@@ -10,4 +10,16 @@ print "\n STD-CODE of CHENNAI is ",std_code['chn']
 
 std_code['kkr'] = "033"
 
-print std_code
+print "\n",std_code
+
+print "\nDeleting kkr from dictionary"
+
+del std_code['kkr'] 
+
+print "\n Printing of dictionary using for loop : \n"
+
+for city,code in std_code.items():
+	print "%s City STD CODE is %s "%(city,code)
+	
+
+

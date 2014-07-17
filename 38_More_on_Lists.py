@@ -1,4 +1,4 @@
-numbers = "One Two Three Four Five Six"
+numbers = "Zero One Two Three Four Five"
 
 print "Now we will split the above string using split()"
 
@@ -21,6 +21,6 @@ print "stuff[1] is ",stuff[1]
 print "stuff[-1] is ",stuff[-1]
 print "stuff[-3] is ",stuff[-3]
 print "stuff.pop() is ",stuff.pop()
-print "' '.join(stuff) is ",' '.join(stuff)
-print "'#'.join(stuff[3:5]) is ",'#'.join(stuff[3:5])
+print "'  ___  '.join(stuff) is ",'  __  '.join(stuff)
+print "'#'.join(stuff[3:7]) is ",'#'.join(stuff[3:7])
 print "Final stuff ",stuff
